@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _isalpha - checks for aphabets both lower and upper  case
+ *_isalpha - checks for aphabets both lower and upper  case
  * @c: function parameter
  * Return: 1 (success) or 0 (failure)
  */
