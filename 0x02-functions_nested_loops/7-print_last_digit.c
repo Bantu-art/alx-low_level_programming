@@ -2,7 +2,7 @@
 /**
  * print_last_digit - function prints the last digit of a number
  * @j: function parameter
- * Return: j (success)
+ * Return: k (success)
  */
 
 int print_last_digit(int j)
@@ -13,7 +13,7 @@ int print_last_digit(int j)
 	if (j < 0)
 		k = -k;
 
-	_putchar(k = '0');
+	_putchar(k + '0');
 		return (k);
 }
 
