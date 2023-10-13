@@ -1,6 +1,4 @@
 #include "main.h"
-/* Function prototype for _putchar */
-int _putchar(char c);
 
 /**
  * print_most_numbers - function prints 0 to 9 but 2 to 4 excluded
@@ -8,6 +6,7 @@ int _putchar(char c);
  */
 
 void print_most_numbers(void)
+
 {
 	int a;
 
