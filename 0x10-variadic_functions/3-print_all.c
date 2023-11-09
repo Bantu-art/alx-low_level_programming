@@ -4,7 +4,7 @@
  * print_all - function prints anything.
  * @format: list of types of arguments passed to the function
  *
- * Return 0 (succes)
+ * Return: 0 (success)
  */
 
 
@@ -43,10 +43,10 @@ void print_all(const char * const format, ...)
 	break;
 	default:
 	break;
-}
+		}
 separator = ", ";
 i++;
-}
+	}
 
 printf("\n");
 va_end(args);
