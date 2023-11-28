@@ -1,11 +1,14 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
+#define BUFFER_SIZE 1024
 #include <stdlib.h>
 #include <stdio.h>
 #include <fcntl.h>
 #include <unistd.h>
 #include <string.h>
 #include <stddef.h>
+#include <errno.h>
+
 
 int _putchar(char c);
 ssize_t read_textfile(const char *filename, size_t letters);
